@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+
+
+.main{
+
+    width: 600px;
+    margin: 50px auto;
+    background-color: blue;
+    padding: 50px 0px;
+}
+
+.header{
+    font-size: 50px;
+    color: white; 
+    text-align: center;
+    font-family: 'Skranji', cursive;
+}
+
+.startGame{
+
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
+        font-size: 16px;
+        margin: 0px 240px;    
+}
+
+.timer{
+    color: white;
+    font-family: 'Skranji', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
