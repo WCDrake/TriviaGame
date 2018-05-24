@@ -19,19 +19,60 @@
         <button class="startGame"> Start Game!</button>
         <div class="questionsAndTimer">
             <p class="timer"></p>
-            <button class="submit"> Submit!</button>
-            <div class= "question1"> 
-                <p> What year did Bilbo turn at his birthday in the beginning? </p>
+            <div class="question">
+                <p> 1) What age was Bilbo turning at his birthday in the beginning? </p> <br>
+                <form action="">
+                    <input type="radio" name="Bilbo" value="65" id=65> 65
+                    <br>
+                    <input type="radio" name="Bilbo" value="87" id=87> 87
+                    <br>
+                    <input type="radio" name="Bilbo" value="111" id=111> 111
+                </form>
+                <br>
+
+                <p> 2) Who is a way better character in the books and is a little bitch in the movies? </p> <br>
+                <form action="">
+                    <input type="radio" name="Bilbo" value="Frodo" id="Frodo"> Frodo
+                    <br>
+                    <input type="radio" name="Bilbo" value="Boromir" id="Boromir"> Boromir
+                    <br>
+                    <input type="radio" name="Bilbo" value="Legolas" id="Legolas"> Legolas
+                </form>
+                <br>
+
+                <p> 3) How cool is Gandalf? </p> <br>
+                <form action="">
+                    <input type="radio" name="Bilbo" value="super" id="super"> super cool
+                    <br>
+                    <input type="radio" name="Bilbo" value="way" id="way"> way cool
+                    <br>
+                    <input type="radio" name="Bilbo" value="totally" id="totally" class="reset"> totally cool
+                </form>
+                <br>
+
+
+
+
             </div>
+            <button class="submit" on> Submit!</button>
+
         </div>
 
+        <img src="assets/images/pass.gif" alt="It is done" id="done">
+        <img src="assets/images/noPass.gif" alt="You shall not pass!" id="noPass">
 
-        <div class= "endScreen">
-            <h3 id= "endHeader"> Trivia Quiz Complete</h3>
-            <h4 id= "correct"></h4>
-            <h4 id= "incorrect"></h4>
-            <h4 id= "unanswered"></h4>
-            <button class= "restart">Play Again!</button>
+
+        <div class="endScreen">
+            <h3 id="endHeader"> Trivia Quiz Complete</h3> <br>
+            <div class= "results">
+            <h4 id="correct"></h4>
+            <br>
+            <h4 id="incorrect"></h4>
+            <br>
+            <h4 id="unanswered"></h4>
+            <br>
+            </div>
+            <button class="restart">Play Again!</button>
         </div>
     </div>
 
