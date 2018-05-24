@@ -87,7 +87,7 @@ function endScreen() {
     }
 
 
-    //End Gifs
+    //End of Game Gifs
     if (correct > 1) {
 
         $('#done').show();
