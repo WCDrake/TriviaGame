@@ -1,8 +1,4 @@
-/* How do I get the gif to cover the whole screen?
-        - 1024 x 768
-*/
 
-/*Background and container */
 body{
     background-image: url(../images/background.jpg);
 }
